@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital-Clock</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color:antiquewhite;
+        }
+        h2{
+            text-align: center;
+            font-size: 60px;
+        }
+        
+        #box{
+            height: calc(100vh - 150px);
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+        }
+        #clock{
+            height: 60px;
+            background-color: orange;
+            color: black;
+            font-size: 50px;
+            padding: 5px 20px;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Digital Clock Mini Project by <strong>Prince Mishra</strong></h2>
+    <div id="box">
+        <span style="font-size: 55px;">Time is</span>
+        <span id="clock"></span>
+    </div>
+</body>
+<script src="digitalClock.js"></script>
+</html>
